@@ -1,0 +1,15 @@
+npm notice run puppetform-test@1.0.0 test:debug
+npm notice run cross-env NODE_ENV=debug npm test
+npm notice run puppetform-test@1.0.0 test
+npm notice run node --experimental-vm-modules node_modules/jest/bin/jest.js
+ERROR: The process with PID 2828 (child process of PID 7524) could not be terminated.
+Reason: There is no running instance of the task.
+ERROR: The process with PID 9124 (child process of PID 7524) could not be terminated.
+Reason: There is no running instance of the task.
+ERROR: The process with PID 9392 (child process of PID 7524) could not be terminated.
+Reason: There is no running instance of the task.
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        102.198 s
+Ran all test suites.
